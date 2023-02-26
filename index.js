@@ -1,5 +1,7 @@
-function ShowBox()
+$(function()
 {
-	$("#divTestArea1").fadeIn(10000);
-  $("#divTestArea1 > b").css("color", "orange")
-}
+	$("#divTestArea1").fadeIn(3000, function()
+		{
+			$("#divTestArea1")fadeOut(2000;)
+		});
+});
